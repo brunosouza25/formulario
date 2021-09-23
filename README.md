@@ -5,7 +5,7 @@
 <p>
 Formulário possui 1 botão, sendo ele: </br>
 <ul>
-    <li><b>Validar</b>: para validar o formulário digitado</li>
+    <li><b>Enviar</b>: para "validar" o formulário digitado</li>
 </ul>
 </p>
 

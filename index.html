@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <section class="container">
+            <h2>Formulário de cadastro</h2>
+            <ul>
+                <li>Nenhum campo pode estar vazio</li>
+                <li>Usuário só poderá conter letras e/ou números</li>
+                <li>Usuário deverá ter entre 3 a 12 caracteres</li>
+                <li>Senha precisa ter entre 6 e 12 caracteres</li>
+            </ul>
+
+            <div>
+                <div id="div-result" class="result"></div>
+                <div id="div-name" class="div-text">
+                    <label for="name">Nome: </label>
+                    <input type="text" id="name" />
+                </div>
+
+                <div id="div-lastname" class="div-text">
+                    <label for="lastname">Sobrenome:</label>
+                    <input type="text" id="lastname" />
+                </div>
+
+                <div id="div-cpf" class="div-text">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" />
+                </div>
+
+                <div id="div-user" class="div-text">
+                    <label for="user">Usuário:</label>
+                    <input type="text" id="user" />
+                </div>
+
+                <div id="div-password" class="div-text">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" />
+                </div>
+
+                <div id="div-password2" class="div-text">
+                    <label for="verifyPassword">Repetir senha:</label>
+                    <input type="password" id="verifyPassword" />
+                </div>
+
+                <div>
+                    <button class="sendButton" id="btn-send">Enviar</button>
+                </div>
+            </div>
+        </section>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>

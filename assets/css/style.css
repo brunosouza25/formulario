@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(15, 60, 80);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+input {
+    margin: auto;
+    width: 100%;
+    font-size: 25px;
+}
+
+div {
+    margin-bottom: 2%;
+}
+
+label {
+    float: left;
+}
+
+.sendButton {
+    width: 100%;
+    background-color: var(--primary-color-darker);
+    font-size: 20px;
+    color: #fff;
+}
+
+.div-text {
+    text-align: center;
+}
+
+.rejected {
+    color: red;
+}
+
+.accept {
+    color: green;
+}
+
+.result {
+    text-align: center;
+}
